@@ -1,0 +1,18 @@
+{
+  "name": "o-c-p",
+  "main": "./lib/o-c-p",
+  "version": "0.0.0",
+  "description": "Ollama Chat Pannel, a pannel to chat with IA turn on Ollama Server",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "o-c-p:toggle"
+  },
+  "repository": "https://github.com/atom/o-c-p",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

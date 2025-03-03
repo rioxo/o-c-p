@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle o-c-p",
+        "command": "o-c-p:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "o-c-p",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "o-c-p:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
