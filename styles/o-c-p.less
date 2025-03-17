@@ -4,12 +4,33 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.o-c-p.chat_block {
+.o-c-p.param_block {
   height: 274px;
+  width: 20%;
+  float: left;
 }
 
-.o-c-p.message_history {
-  height: 234px
+.o-c-p.ai_list {
+  width: 75%;
+}
+
+.o-c-p.new_chat {
+  width: 15%
+}
+
+.o-c-p.chat_block {
+  height: 274px;
+  width: 80%;
+  float: right;
+}
+
+.o-c-p.chat_history {
+  height: 200px;
+  overflow: auto;
+}
+
+.o-c-p.message_history.user {
+  text-align: right;
 }
 
 .o-c-p.message_block {
@@ -18,8 +39,10 @@
 }
 
 .o-c-p.message_input {
-  width: calc(100% - 60px);
-  height: 30px;
+  resize: none;
+  width: calc(100% - 70px);
+  height: 60px;
+  float: left;
 }
 
 .o-c-p.send_button {

@@ -1,8 +1,8 @@
 {
   "name": "o-c-p",
   "main": "./lib/o-c-p",
-  "version": "A.0.1",
-  "description": "Ollama Chat Pannel, a pannel to chat with IA turn on Ollama Server",
+  "version": "0.0.2",
+  "description": "Ollama Chat Pannel, a pannel to chat with IA who turn on Ollama Server",
   "keywords": [
   ],
   "activationCommands": {
@@ -14,5 +14,21 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "busy": "^0.7.0"
+  },
+  "configSchema": {
+    "ollamaServerUri": {
+      "order": 0,
+      "description": "The Uri of the Ollama server",
+      "type": "string",
+      "default": "http://localhost:11434"
+    }
+  },
+  "consumedServices": {
+    "busy": {
+      "versions": {
+        ">=0.0.2": "consumeBusy"
+      }
+    }
   }
 }
