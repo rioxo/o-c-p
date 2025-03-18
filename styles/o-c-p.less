@@ -4,48 +4,50 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.o-c-p.param_block {
+.o-c-p.param-block {
   height: 274px;
   width: 20%;
   float: left;
 }
 
-.o-c-p.ai_list {
+.o-c-p.chat-block {
+  height: 274px;
+}
+
+.o-c-p.ai-list {
   width: 75%;
 }
 
-.o-c-p.new_chat {
+.o-c-p.new-chat {
   width: 15%
 }
 
-.o-c-p.chat_block {
-  height: 274px;
-  width: 80%;
-  float: right;
-}
-
-.o-c-p.chat_history {
-  height: 200px;
+.o-c-p.message-history {
   overflow: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 80%;
+  height: calc(100% - 40px);
 }
 
-.o-c-p.message_history.user {
-  text-align: right;
-}
-
-.o-c-p.message_block {
-  position: relative;
+.o-c-p.message-block {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 80%;
   height: 40px;
 }
 
-.o-c-p.message_input {
+.o-c-p.message-input {
   resize: none;
   width: calc(100% - 70px);
-  height: 60px;
+  height: 40px;
   float: left;
+  overflow: auto;
 }
 
-.o-c-p.send_button {
+.o-c-p.send-button {
   width: 50px;
   height: 30px;
   margin: 5px;

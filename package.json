@@ -1,7 +1,7 @@
 {
   "name": "o-c-p",
   "main": "./lib/o-c-p",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ollama Chat Pannel, a pannel to chat with IA who turn on Ollama Server",
   "keywords": [
   ],
@@ -14,7 +14,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "busy": "^0.7.0"
+    "busy": "^0.7.0",
+    "uuid": ">=11.1.0"
   },
   "configSchema": {
     "ollamaServerUri": {
