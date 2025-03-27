@@ -6,10 +6,16 @@
         "command": "o-c-p:toggle"
       }
     ],
+    ".o-c-p.chat-list.root":[
+      {
+        "label": "Add Chat",
+        "command": "o-c-p:add-chat"
+      }
+    ],
     ".o-c-p.chat-history.name": [
       {
         "label": "Rename Chat",
-        "command": "o-c-p:rename"
+        "command": "o-c-p:show-rename"
       },
       {
         "label": "Delete Chat",
@@ -27,10 +33,6 @@
             {
               "label": "Toggle",
               "command": "o-c-p:toggle"
-            },
-            {
-              "label": "Hide Rename",
-              "command": "o-c-p:hide-rename"
             }
           ]
         }

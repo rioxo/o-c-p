@@ -1,7 +1,7 @@
 {
   "name": "o-c-p",
   "main": "./lib/o-c-p",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Ollama Chat Pannel, a pannel to chat with IA who turn on Ollama Server",
   "keywords": [
   ],
