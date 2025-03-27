@@ -1,5 +1,11 @@
 ## Change Log
 
+0.2.6 : modify README
+
+0.2.5 : remove busy
+
+0.2.0 : publish
+
 A.1.0 : Preparation to publish
 
 A.0.3 : Rebuild + chat name change + some upgraded
