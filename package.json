@@ -13,25 +13,14 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-package-deps": "^4.0.1",
     "uuid": ">=11.1.0"
   },
-  "package-deps": [
-    "busy"
-  ],
   "configSchema": {
     "ollamaServerUri": {
       "order": 0,
       "description": "The Uri of the Ollama server",
       "type": "string",
       "default": "http://localhost:11434"
-    }
-  },
-  "consumedServices": {
-    "busy": {
-      "versions": {
-        ">=0.0.2": "consumeBusy"
-      }
     }
   }
 }
