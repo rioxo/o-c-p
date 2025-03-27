@@ -16,7 +16,9 @@
     "uuid": ">=11.1.0"
   },
   "package-deps": [
-    "busy"
+    {
+      "name": "busy"
+    }
   ],
   "configSchema": {
     "ollamaServerUri": {
