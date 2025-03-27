@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "o-c-p:toggle"
   },
-  "repository": "https://github.com/pulsar-edit/o-c-p",
+  "repository": "https://github.com/rioxo/o-c-p.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
